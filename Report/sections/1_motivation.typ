@@ -1,0 +1,8 @@
+= 1. Motivation
+ In our highly digital world, cyberattacks are becoming more frequent. This creates serious risks to the security and reliability of today’s information systems. Therefore, it is important to develop accurate and efficient intrusion detection systems (IDS) to protect digital assets. #cite(<mohammed2020multilayer>). In this work, I focus on a core challenge: using data-driven methods to classify network traffic as either “Normal” or “Attack” based on the widely-used NSL-KDD benchmark dataset.
+
+A review of existing research shows there’s no clear agreement on the best algorithm for this binary classification task. Traditional machine learning models, such as Random Forests and Support Vector Machines, have achieved excellent results, with some studies reporting accuracies up to 99.7% #cite(<ravipati2019intrusion>). However, their dominance isn’t guaranteed. Well-designed Artificial Neural Networks can reach similar performance levels #cite(<mohammed2020multilayer>); #cite(<choras2021intrusion>), though they are highly sensitive to architecture and hyperparameter choices.
+
+Overall, the evidence suggests that the key to strong results lies less in the type of algorithm and more in the details of how experiments are designed and conducted—a factor that explains much of the variability seen in the field.
+
+<ToDo>Provide a short summary of your methods and obtained results.
