@@ -25,10 +25,10 @@ This disparity makes feature scaling a mandatory step to prevent algorithms that
  
 )
 
-Furthermore, the feature *num_outbound_cmds*, was identified as having zero variance across all records, providing no predictive information and was therefore removed from both the training and testing sets. The three categorical *features—protocol_type, service, and flag—were* converted into a numerical format using *one-hot encoding*. This technique is essential for algorithms that require numerical inpust. A notable effect of this process is the significant expansion of the dataset's dimensionality, which resulted in the increase of features from 40 to 121. This expansion is primarily driven by the high cardinality of the service type feature, which contains 70 unique categories.
+Furthermore, the feature *num_outbound_cmds*, was identified as having zero variance across all records, providing no predictive information and was therefore removed from both the training and testing sets. The three categorical *features—protocol_type, service, and flag—were* were transformed into a numerical format using the a technic called *one-hot encoding*. This is very important for algorithms that nned numerical valuesfor their input. A negativ effect of this technic is the increase of the dimensionality of the dataset. The number of features increaed from 40 to 121. This  is primarily driven by the high cardinality of the service type feature, which contains 70 unique categories.
 #figure(
   image("../pictures/categorial_types.png", width: 100%), 
   caption: [Categorial Features Analysis], // The figure caption
  
 )
- All these preprocessing steps were systematically encapsulated within a ColumnTransformer pipeline to ensure consistent and reproducible data transformation for both model training and subsequent evaluation.
+ 
