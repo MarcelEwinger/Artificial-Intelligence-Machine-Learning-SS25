@@ -1,7 +1,5 @@
 = 6. Conclusion
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-  amet.
+This project successfully implemented and evaluated a range of classical machine learning algorithms and an optimized Artificial Neural Network for binary intrusion detection on the NSL-KDD dataset. The evaluation revealed the Decision Tree as the top-performing model based on the F1-score, closely followed by the systematically optimized ANN with Weights & Biases. A critical insight from the results is the pronounced precision-recall trade-off; while the developed models achieve high precision, their moderate recall indicates a significant number of missed attacks. 
+
+For future work, efforts should prioritize improving the models' recall to create a more balanced and practical detection system. This could be achieved by employing data-level techniques like SMOTE to address any subtle class imbalances,feature engineering or by exploring algorithmic adjustments such as class weighting. Additionally, investigating more advanced ensemble models like XGBoost, could yield further performance gains. Finally, extending the analysis from binary to multi-class classification would represent a valuable next step toward developing a more comprehensive intrusion detection system like in the different papers mentioned. 

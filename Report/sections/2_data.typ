@@ -6,16 +6,16 @@ The NSL-KDD dataset, also well-known as a benchmark in the field of the network 
 While various versions of the NSL-KDD dataset are available on platforms like Kaggle, differing in format and scope, this project utilizes the core *KDDTrain+.txt* and *KDDTest+.txt* files, which are also used in most other projects. A key advantage of using these specific files is that the dataset is already separated into training and testing sets #cite(<zaib2025>).
 The dataset contains network connection records, each described by 41 features and labeled with a specific attack type or as 'normal'. These features are a mix of continuous, discrete, and symbolic data types. They capture a  broad range of properties from basic connection duration and protocol type (e.g., TCP, UDP, ICMP) to higher-level traffic characteristics like the rate of connection errors. For this project, the primary goal is binary classification between normal and attack. Therefore, the original multi-class labels, which include categories such as 'Normal', 'DoS', 'Probe', 'R2L', and 'U2R' #cite(<mohammed2020multilayer>), were transformed into a single binary target variable. Connections labeled 'normal' were mapped to 0, and all attacks connections were combined to 1. This resulted in a reasonably balanced class distribution in the training set, with approximately 53% normal traffic and 47% attack traffic.
 #figure(
-  image("../pictures/distribuation_attack_normal.png", width: 80%), 
+  image("../pictures/distribuation_attack_normal.png", width: 100%), 
   caption: [Distribution of Attack vs Normal Traffic], // The figure caption
  
 )
 
 
-A exploratory analysis revealed several key characteristics of the data that necessitated a structured preprocessing pipeline. The dataset was found to be *complete*, with no missing or null values. However, an analysis of the numerical features showed vast differences in scale. For instance, features like *src_bytes* can have values in the millions, while many rate-based features are normalized between 0 and 1. 
+A exploratory analysis revealed several key characteristics of the data that necessitated a structured preprocessing pipeline. The dataset was found to be *complete*, with *no missing* or *null values*. However, an analysis of the numerical features showed big differences in scale. For instance, features like *src_bytes* can have values in the millions, while many rate-based features are normalized between 0 and 1. 
 #figure(
   image("../pictures/numercial_feature_scale.png", width: 100%), 
-  caption: [Excerpt Statistical overview of numerical network features], // The figure caption
+  caption: [Statistical overview of numerical network features], // The figure caption
  
 )
 This disparity makes feature scaling a mandatory step to prevent algorithms that are sensitive to feature magnitude. Consequently, the *StandardScaler* was selected to transform all numerical features to have a mean of zero and a standard deviation of one.

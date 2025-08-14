@@ -1,0 +1,13 @@
+{"time":"2025-08-14T10:18:50.304526+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-14T10:18:50.622114+02:00","level":"INFO","msg":"stream: created new stream","id":"1bixt2c4"}
+{"time":"2025-08-14T10:18:50.622114+02:00","level":"INFO","msg":"stream: started","id":"1bixt2c4"}
+{"time":"2025-08-14T10:18:50.622114+02:00","level":"INFO","msg":"handler: started","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:18:50.622114+02:00","level":"INFO","msg":"sender: started","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:18:50.622114+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:19:32.9372633+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T10:19:33.0117849+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 29-39, summary","runtime_seconds":0.0745216}],"total_operations":1}}
+{"time":"2025-08-14T10:19:33.2820887+02:00","level":"INFO","msg":"stream: closing","id":"1bixt2c4"}
+{"time":"2025-08-14T10:19:33.2820887+02:00","level":"INFO","msg":"handler: closed","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:19:33.2820887+02:00","level":"INFO","msg":"sender: closed","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:19:33.2820887+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1bixt2c4"}
+{"time":"2025-08-14T10:19:33.2820887+02:00","level":"INFO","msg":"stream: closed","id":"1bixt2c4"}

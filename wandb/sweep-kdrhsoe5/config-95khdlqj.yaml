@@ -1,0 +1,18 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 128
+dropout_rate:
+  value: 0.12782911398765193
+epochs:
+  value: 20
+hidden_layer_1_size:
+  value: 128
+hidden_layer_2_size:
+  value: 32
+learning_rate:
+  value: 0.0004212941922959791
+optimizer:
+  value: rmsprop

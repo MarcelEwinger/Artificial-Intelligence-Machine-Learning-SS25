@@ -1,0 +1,13 @@
+{"time":"2025-08-14T10:44:17.3023183+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-14T10:44:17.6185056+02:00","level":"INFO","msg":"stream: created new stream","id":"dazvmiog"}
+{"time":"2025-08-14T10:44:17.6185056+02:00","level":"INFO","msg":"stream: started","id":"dazvmiog"}
+{"time":"2025-08-14T10:44:17.6185056+02:00","level":"INFO","msg":"handler: started","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:17.6185056+02:00","level":"INFO","msg":"sender: started","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:17.6185056+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:32.128289+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T10:44:32.4481849+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-08-14T10:44:32.4512511+02:00","level":"INFO","msg":"stream: closing","id":"dazvmiog"}
+{"time":"2025-08-14T10:44:32.4512511+02:00","level":"INFO","msg":"handler: closed","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:32.4512511+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:32.4512511+02:00","level":"INFO","msg":"sender: closed","stream_id":"dazvmiog"}
+{"time":"2025-08-14T10:44:32.4512511+02:00","level":"INFO","msg":"stream: closed","id":"dazvmiog"}

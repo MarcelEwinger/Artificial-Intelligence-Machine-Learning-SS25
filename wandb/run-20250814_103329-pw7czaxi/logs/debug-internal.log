@@ -1,0 +1,13 @@
+{"time":"2025-08-14T10:33:30.0680493+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-14T10:33:30.3843239+02:00","level":"INFO","msg":"stream: created new stream","id":"pw7czaxi"}
+{"time":"2025-08-14T10:33:30.3843239+02:00","level":"INFO","msg":"stream: started","id":"pw7czaxi"}
+{"time":"2025-08-14T10:33:30.3843239+02:00","level":"INFO","msg":"handler: started","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:33:30.3843239+02:00","level":"INFO","msg":"sender: started","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:33:30.3843239+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:35:02.8990761+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T10:35:03.2703303+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 39-39, summary","runtime_seconds":0.3712542}],"total_operations":1}}
+{"time":"2025-08-14T10:35:03.3116403+02:00","level":"INFO","msg":"stream: closing","id":"pw7czaxi"}
+{"time":"2025-08-14T10:35:03.3116403+02:00","level":"INFO","msg":"handler: closed","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:35:03.3116403+02:00","level":"INFO","msg":"sender: closed","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:35:03.3116403+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pw7czaxi"}
+{"time":"2025-08-14T10:35:03.3116403+02:00","level":"INFO","msg":"stream: closed","id":"pw7czaxi"}

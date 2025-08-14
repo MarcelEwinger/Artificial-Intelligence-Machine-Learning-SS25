@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            qail02qqwq7mb7dl376ybg0c3lzcmfo2:
+                codePath: notebook.ipynb
+                codePathLocal: notebook.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1999584096256"
+                        used: "972006195200"
+                email: marcel.ewinger@alumni.htl-klu.at
+                executable: C:\Users\marce\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+                git:
+                    commit: 12ae6239b20020c9f2f1a549a1f70f4b8ad7d8f0
+                    remote: https://github.com/MarcelEwinger/Artificial-Intelligence-Machine-Learning-SS25.git
+                gpu: NVIDIA GeForce RTX 5070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 8960
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5070 Ti
+                      uuid: GPU-517f5e76-d54a-9707-29cd-902ba22bae46
+                host: Ewinger_PC
+                memory:
+                    total: "33459404800"
+                os: Windows-11-10.0.26100-SP0
+                program: c:\Users\marce\OneDrive - HTL Mössingerstrasse\Uni\Master\2.Semester\AI & ML\Project\Artificial-Intelligence-Machine-Learning-SS25\notebook.ipynb
+                python: CPython 3.12.10
+                root: c:\Users\marce\OneDrive - HTL Mössingerstrasse\Uni\Master\2.Semester\AI & ML\Project\Artificial-Intelligence-Machine-Learning-SS25
+                startedAt: "2025-08-14T08:26:24.252486Z"
+                writerId: qail02qqwq7mb7dl376ybg0c3lzcmfo2
+        m:
+            - "1": epoch/epoch
+              "6":
+                - 3
+              "7": []
+            - "2": epoch/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 7
+                - 14
+                - 38
+            "4": 3.12.10
+            "5": 0.21.0
+            "8":
+                - 1
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+activation:
+    value: tanh
+batch_size:
+    value: 64
+dropout_rate:
+    value: 0.11742902871540024
+epochs:
+    value: 30
+hidden_layer_1_size:
+    value: 32
+hidden_layer_2_size:
+    value: 32
+learning_rate:
+    value: 0.0011521322386577263
+optimizer:
+    value: rmsprop

@@ -1,0 +1,13 @@
+{"time":"2025-08-14T11:04:17.8368774+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-14T11:04:18.2590783+02:00","level":"INFO","msg":"stream: created new stream","id":"hihvsky3"}
+{"time":"2025-08-14T11:04:18.2595947+02:00","level":"INFO","msg":"stream: started","id":"hihvsky3"}
+{"time":"2025-08-14T11:04:18.2595947+02:00","level":"INFO","msg":"handler: started","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:18.2595947+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:18.2595947+02:00","level":"INFO","msg":"sender: started","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:46.3191023+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T11:04:46.3491973+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 5-9, summary","runtime_seconds":0.030095}],"total_operations":1}}
+{"time":"2025-08-14T11:04:46.8330564+02:00","level":"INFO","msg":"stream: closing","id":"hihvsky3"}
+{"time":"2025-08-14T11:04:46.8330564+02:00","level":"INFO","msg":"handler: closed","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:46.8330564+02:00","level":"INFO","msg":"sender: closed","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:46.8330564+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hihvsky3"}
+{"time":"2025-08-14T11:04:46.8330564+02:00","level":"INFO","msg":"stream: closed","id":"hihvsky3"}

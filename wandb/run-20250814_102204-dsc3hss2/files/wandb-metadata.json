@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.10",
+  "startedAt": "2025-08-14T08:22:04.164188Z",
+  "program": "c:\\Users\\marce\\OneDrive - HTL Mössingerstrasse\\Uni\\Master\\2.Semester\\AI & ML\\Project\\Artificial-Intelligence-Machine-Learning-SS25\\notebook.ipynb",
+  "codePath": "notebook.ipynb",
+  "codePathLocal": "notebook.ipynb",
+  "git": {
+    "remote": "https://github.com/MarcelEwinger/Artificial-Intelligence-Machine-Learning-SS25.git",
+    "commit": "12ae6239b20020c9f2f1a549a1f70f4b8ad7d8f0"
+  },
+  "email": "marcel.ewinger@alumni.htl-klu.at",
+  "root": "c:\\Users\\marce\\OneDrive - HTL Mössingerstrasse\\Uni\\Master\\2.Semester\\AI & ML\\Project\\Artificial-Intelligence-Machine-Learning-SS25",
+  "host": "Ewinger_PC",
+  "executable": "C:\\Users\\marce\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1999584096256",
+      "used": "972092850176"
+    }
+  },
+  "memory": {
+    "total": "33459404800"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal": "17094934528",
+      "cudaCores": 8960,
+      "architecture": "Blackwell",
+      "uuid": "GPU-517f5e76-d54a-9707-29cd-902ba22bae46"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "ny8gh14kdugsdre7iy7t5ced76atuf7c"
+}

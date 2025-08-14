@@ -1,0 +1,13 @@
+{"time":"2025-08-14T10:30:11.1077258+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-14T10:30:11.4285349+02:00","level":"INFO","msg":"stream: created new stream","id":"3gpnu55s"}
+{"time":"2025-08-14T10:30:11.4285349+02:00","level":"INFO","msg":"stream: started","id":"3gpnu55s"}
+{"time":"2025-08-14T10:30:11.4285349+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:30:11.4285349+02:00","level":"INFO","msg":"sender: started","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:30:11.4285349+02:00","level":"INFO","msg":"handler: started","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:31:16.9006405+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T10:31:17.0402291+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 28-29, summary","runtime_seconds":0.1395886}],"total_operations":1}}
+{"time":"2025-08-14T10:31:17.1589306+02:00","level":"INFO","msg":"stream: closing","id":"3gpnu55s"}
+{"time":"2025-08-14T10:31:17.1589306+02:00","level":"INFO","msg":"handler: closed","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:31:17.1589306+02:00","level":"INFO","msg":"sender: closed","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:31:17.1589306+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3gpnu55s"}
+{"time":"2025-08-14T10:31:17.1589306+02:00","level":"INFO","msg":"stream: closed","id":"3gpnu55s"}

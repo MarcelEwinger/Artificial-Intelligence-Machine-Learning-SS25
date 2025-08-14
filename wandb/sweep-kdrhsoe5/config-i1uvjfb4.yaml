@@ -1,0 +1,18 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 64
+dropout_rate:
+  value: 0.11742902871540024
+epochs:
+  value: 30
+hidden_layer_1_size:
+  value: 32
+hidden_layer_2_size:
+  value: 32
+learning_rate:
+  value: 0.0011521322386577263
+optimizer:
+  value: rmsprop
